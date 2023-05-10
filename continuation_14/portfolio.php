@@ -20,26 +20,15 @@ error_reporting(-1);
 </head>
 
 <body>
+    <h2><a href="index.php">home</a></h2>
 
-    <h1>Центральная страница</h1>
+    <h1>portfolio</h1>
     <span><a href="blog.php">blog</a> <a href="contact.php">contact</a> <a href="portfolio.php">portfolio</a></span>
-
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 
     <!-- для подключения файлов -->
 
     <?php include 'inc/inc.php' ?>
-
-    <?php var_dump($names);
-
-    echo "<br>";
-
-    foreach ($names as $key => $name) {
-        // echo "Name: $key, Surname: $name <br>";
-        echo "Key: $key, Surname: $name <br>";
-    }
-
-    ?>
     <!-- <?php require 'inc/inc.php' ?>  приориттетнее-->
 
     <!-- require_once
