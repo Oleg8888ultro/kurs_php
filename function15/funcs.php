@@ -26,4 +26,12 @@ function sum($a, $b)
 
 }
 
+function my_array_keys($arr){
+    $data = [];
+    foreach ($arr as $k => $v) {
+        $data[] = $k;
+    }
+    return $data;
+}
+
 ?>

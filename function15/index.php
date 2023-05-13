@@ -23,7 +23,10 @@ $names = ['Ivanov', 'Petrov'];
 
 $keys = array_keys($nums);
 print_r($keys);
+ 
 
+$keys2 = my_array_keys($names);
+print_r($keys2);
 
 // echo count($nums) . "<br>";
 // echo count($names) . "<br>";
