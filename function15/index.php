@@ -21,8 +21,12 @@ require_once 'funcs.php';
 $nums = [1, 2, 3];
 $names = ['Ivanov', 'Petrov'];
 
-echo count($nums) . "<br>";
-echo count($names) . "<br>";
+$keys = array_keys($nums);
+print_r($keys);
+
+
+// echo count($nums) . "<br>";
+// echo count($names) . "<br>";
 
 
 
@@ -36,12 +40,24 @@ echo count($names) . "<br>";
 
 
 
-$a = 5;
-$b = 10;
+// $a = 5;
+// $b = 10;
 
-echo $a;
+// echo $a;
 
-sum($a, $b);
+// sum($a, $b);
 
-echo $a;
+// echo $a;
+
+// $a = 5;
+// $b = 10;
+// echo $a;
+// echo '<br>';
+
+// sum($a, $b);
+
+// echo $a;
+
+// echo 8 + sum(1,2);
+
 ?>
