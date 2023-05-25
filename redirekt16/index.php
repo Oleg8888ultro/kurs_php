@@ -3,8 +3,10 @@
 header('Content-Type: text/html; charset=utf-8');
 //header('Location: inc.php');
 header('refresh: 5; url=inc.php');
-exit;
+// exit;
 //die;
+
+// header('HTTP/1.0 304 Not Modified');
 ?>
 
 <!DOCTYPE html>
